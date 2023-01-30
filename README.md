@@ -1,7 +1,7 @@
 # Life-In-Weeks
 This code let's you find your life in weeks and how many weeks are left to live.
 
-Step 1: Download pillow library.
+Step 1: Download pillow library. (https://pypi.org/project/Pillow/)
 
 Step 2: download my code.
 
