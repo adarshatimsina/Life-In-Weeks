@@ -1,18 +1,19 @@
 from PIL import Image, ImageDraw
 from datetime import datetime, timedelta
 
+# Scan data from the user 
 def weeks_lived():
     birth_year = int(input("Enter your birth year: "))
     birth_month = int(input("Enter your birth month: "))
     birth_day = int(input("Enter your birth day: "))
-    birthdate = datetime(birth_year, birth_month, birth_day)
+    birthdate = datetime(birth_year, birth_month, birth_day) 
     today = datetime.now()
     delta = today - birthdate
     return int(delta.days / 7)
 
 weeks_lived = weeks_lived()
 print("You have lived for {} weeks".format(weeks_lived))
-life_exp = int(input("Enter your country life expectancy:"))
+life_exp = int(input("Enter your region life expectancy:"))
 weeks_left = ((life_exp * 52)- weeks_lived)
 print(weeks_left)
 
