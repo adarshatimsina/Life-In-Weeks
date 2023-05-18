@@ -5,7 +5,7 @@ Step 1: Download pillow library. (https://pypi.org/project/Pillow/)
 
 Step 2: download my code.
 
-Step 3: Change the PNG image location, ie.(///image.save("C:\\Users\\ASUS\\Desktop\\weeks_left.png")///) to your desired location.
+Step 3: (IMPORTANT) Change the PNG image location, ie.(///image.save("C:\\Users\\ASUS\\Desktop\\weeks_left.png")///) to your desired location. 
 
 Step 4: Use it.
 
