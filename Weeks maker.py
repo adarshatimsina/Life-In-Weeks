@@ -23,13 +23,13 @@ height = (weeks_lived + weeks_left) // 52 + 1
 image = Image.new('RGB', (width * 10, height * 10), color = (255, 255, 255))
 draw = ImageDraw.Draw(image)
 
-# Draw red rectangles to represent the total number of weeks lived
+# Draw red squares to represent the total number of weeks lived
 for i in range(weeks_lived):
     x = (i % 52) * 10
     y = (i // 52) * 10
     draw.rectangle([(x, y), (x + 8, y + 8)], fill='red')
 
-# Draw white rectangles to represent the total number of weeks left
+# Draw white squares to represent the total number of weeks left
 for i in range(weeks_left):
     x = ((i + weeks_lived) % 52) * 10
     y = ((i + weeks_lived) // 52) * 10
