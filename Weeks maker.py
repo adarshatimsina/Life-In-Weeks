@@ -36,7 +36,7 @@ for i in range(weeks_left):
     draw.rectangle([(x, y), (x + 8, y + 8)], fill='#a9a9a9')
 
 # Save the image to a file
-image.save("C:\\Users\\ASUS\\Desktop\\weeks_left.png")
+image.save("C:\\Users\\ASUS\\Desktop\\weeks_left.png") #change location of the directory to save the image to.
 print("succesfully saved")
 
 
