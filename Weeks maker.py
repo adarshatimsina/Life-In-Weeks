@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 from datetime import datetime, timedelta
 
-# Scan data from the user 
+# code used for scanning information from the user.
 def weeks_lived():
     birth_year = int(input("Enter your birth year: "))
     birth_month = int(input("Enter your birth month: "))
