@@ -9,7 +9,7 @@ Step 2: download my code.
 
 Step 3: (IMPORTANT) Change the PNG image location, ie.(///image.save("C:\\Users\\ASUS\\Desktop\\weeks_left.png")///) to your desired location. 
 
-Step 4: Use it.
+Step 4: Add your date of birth and get the results in png.
 
 Step 5 : ENJOY!!
 
