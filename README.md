@@ -13,7 +13,8 @@ Step 4: Add your date of birth and get the results in png.
 
 Step 5 : ENJOY!!
 
-
-
 #Example of life in Weeks :
+
+
+
 ![weeks_left](https://github.com/adarshatimsina/Life-In-Weeks/assets/108563187/906bb5b9-d4f9-4651-aa94-bbc18010ff46)
